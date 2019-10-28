@@ -1,4 +1,13 @@
 #!/usr/bin/env python2
+"""Python script for aligning images taken with the MicaSense Altum multi-spectral camera.
+
+Copyright (c) 2019. Sam Schofield. This file is subject to the 3-clause BSD
+license, as found in the LICENSE file in the top-level directory of this
+distribution and at https://github.com/sds53/altum_image_aligner/LICENSE.
+No part of altum_image_aligner, including this file, may be copied, modified,
+propagated, or distributed except according to the terms contained in the
+LICENSE file.
+"""
 
 from __future__ import print_function
 
