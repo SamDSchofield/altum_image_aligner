@@ -1,4 +1,4 @@
-# MicaSense Altum Image aligner
+# MicaSense Altum image aligner
 Script for aligning images taken with the MicaSense Altum camera.
 
 ## Usage
