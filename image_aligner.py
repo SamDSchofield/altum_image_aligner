@@ -18,7 +18,12 @@ import os
 import numpy as np
 
 
+def load_camera_dict():
+    pass
+
+
 def list_images_in_dir(directory):
+    # TODO: don't search sub-directories
     files = []
     for r, d, f in os.walk(directory):
         for file_ in f:
@@ -138,6 +143,7 @@ def main(directory, output_directory):
             if not image_path.endswith("6.tif"):  # Skip the thermal images
                 print(image_path)
                 image = cv2.imread(image_path)
+                # TODO: undistort the images
                 aligned_image = align_image(reference_image, image)
                 output_path = "{}/{}".format(output_directory, image_path.split("/")[-1])
                 print(output_path)
